@@ -17,8 +17,8 @@ export class AppService {
     if(environment.production){
       this.seniorApi.setEnvironment(ENVIRONMENTS.PROD)
     } else {
-     this.seniorApi.setEnvironment(ENVIRONMENTS.DEV)
-     // this.seniorApi.setEnvironment(ENVIRONMENTS.PROD)
+     //this.seniorApi.setEnvironment(ENVIRONMENTS.DEV)
+      this.seniorApi.setEnvironment(ENVIRONMENTS.PROD)
     }
    }
 
